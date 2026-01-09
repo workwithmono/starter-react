@@ -1,0 +1,21 @@
+{
+  // React
+  "New React Component": {
+    "prefix": "nrc",
+    "scope": "typescript,typescriptreact",
+    "description": "New React Component",
+    "body": [
+      "// Modules",
+      "import * as React from \"react\";",
+      "",
+      "// Types",
+      "type ${1:ComponentName}Props {}",
+      "",
+      "// Component",
+      "export const ${1:ComponentName}: React.FC<${1:ComponentName}Props> = (): React.ReactElement => {",
+      "  return null;",
+      "};",
+      ""
+    ]
+  }
+}
